@@ -5,7 +5,7 @@
 ## Install
 
 ```sh
-npm add -D @andreaspizsa/xo
+npm add -D @andreaspizsa/eslint-config-xo
 ```
 
 Automatically adds the package to `xo.extends` using [postinstaller](https://github.com/postinstaller/postinstaller).

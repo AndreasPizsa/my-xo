@@ -1,6 +1,6 @@
 {
-  "name": "@andreaspizsa/xo",
-  "version": "0.0.3",
+  "name": "@andreaspizsa/eslint-config-xo",
+  "version": "0.0.1",
   "main": "index.js",
   "scripts": {
     "release": "standard-version",
@@ -54,7 +54,8 @@
     }
   },
   "postinstaller": {
-    "xo.extends[]": "@andreaspizsa/xo"
+    "scripts.pretest": "xo",
+    "xo.extends[]": "@andreaspizsa/eslint-config-xo"
   },
   "dependencies": {
     "postinstaller": "0.0.3"
