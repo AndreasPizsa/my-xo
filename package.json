@@ -1,6 +1,6 @@
 {
   "name": "@andreaspizsa/xo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "scripts": {
     "release": "standard-version",
@@ -54,9 +54,7 @@
     }
   },
   "postinstaller": {
-    "xo": {
-      "extends[]": "@andreaspizsa/xo"
-    }
+    "xo.extends[]": "@andreaspizsa/xo"
   },
   "dependencies": {
     "postinstaller": "0.0.3"
