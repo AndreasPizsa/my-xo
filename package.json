@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "release": "standard-version",
-    "test": "xo test/*.js"
+    "test": "xo test/*.js",
+    "postinstall": "postinstaller",
+    "preuninstall": "postinstaller"
   },
   "keywords": [
     "xo",
