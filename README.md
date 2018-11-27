@@ -3,13 +3,15 @@
 ![](https://badgen.net/xo/status/@andreaspizsa/xo) ![](https://badgen.net/xo/indent/@andreaspizsa/xo) ![](https://badgen.net/xo/semi/@andreaspizsa/xo)
 
 ## Install
-````sh
+
+```sh
 npm add -D @andreaspizsa/xo
 ```
 
 Automatically adds the package to `xo.extends` using [postinstaller](https://github.com/postinstaller/postinstaller).
 
 ## Settings
+
 ```json
 {
   "semicolon": false,
@@ -30,6 +32,7 @@ Automatically adds the package to `xo.extends` using [postinstaller](https://git
 ```
 
 #### Allows Named Functions
+
 ```js
 function a() {
   return function namedFunction() { // standard xo would complain here
@@ -39,6 +42,7 @@ function a() {
 ```
 
 #### Allows Negated Conditions
+
 Negated conditions are fine if there’s a rather short block - often a one-liner - followed by a longer block. Getting the "short block" out of the way reduces cognitive load.
 
 **Good**
@@ -55,7 +59,6 @@ function a(b) {
   }
 }
 ```
-
 
 By default, xo favors this:
 
@@ -76,6 +79,7 @@ function a(b) {
 ```
 
 #### Operator Line Break
+
 I prefer
 
 **Good**
