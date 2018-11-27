@@ -1,1 +1,3 @@
-module.exports = require('./package.json').xo
+module.exports = {
+  rules: require('./package.json').xo.rules
+}

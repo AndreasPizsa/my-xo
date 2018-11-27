@@ -55,7 +55,9 @@
   },
   "postinstaller": {
     "scripts.pretest": "xo",
-    "xo.extends[]": "@andreaspizsa/eslint-config-xo"
+    "xo.extends[]": "@andreaspizsa/eslint-config-xo",
+    "xo.semicolon": false,
+    "xo.space": true
   },
   "dependencies": {
     "postinstaller": "0.0.3"
