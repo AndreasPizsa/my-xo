@@ -26,9 +26,11 @@
     "xo": "^0.23.0"
   },
   "xo": {
-    "semicolon": false,
-    "space": true,
+    "extends": [
+      "xo-space"
+    ],
     "rules": {
+      "semi": [2, "never"],
       "func-names": "off",
       "no-negated-condition": "warn",
       "operator-linebreak": [
@@ -60,6 +62,7 @@
     "xo.space": true
   },
   "dependencies": {
+    "eslint-config-xo-space": "^0.20.0",
     "postinstaller": "0.0.3"
   },
   "standard-version": {
