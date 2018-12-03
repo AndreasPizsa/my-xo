@@ -32,6 +32,18 @@
     "rules": {
       "semi": [2, "never"],
       "func-names": "off",
+      "key-spacing": ["error", {
+        "multiLine": {
+          "mode": "minimum",
+          "beforeColon": false,
+          "afterColon": true
+        },
+        "align": {
+          "beforeColon": false,
+          "afterColon": true,
+          "on": "colon"
+        }
+      }],
       "no-negated-condition": "warn",
       "operator-linebreak": [
         "error",

@@ -19,3 +19,15 @@ function negatedCondition(a) {
   return a
 }
 negatedCondition()
+
+function align() {
+  Object.assign({}, {
+    a: 1
+  })
+
+  return {
+    thisAndThat: 1,
+    longName   : 2
+  }
+}
+align()
