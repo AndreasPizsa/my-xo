@@ -1,6 +1,6 @@
 {
   "name": "@andreaspizsa/eslint-config-xo",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "index.js",
   "scripts": {
     "release": "standard-version",
@@ -30,20 +30,26 @@
       "xo-space"
     ],
     "rules": {
-      "semi": [2, "never"],
+      "semi": [
+        2,
+        "never"
+      ],
       "func-names": "off",
-      "key-spacing": ["error", {
-        "multiLine": {
-          "mode": "minimum",
-          "beforeColon": false,
-          "afterColon": true
-        },
-        "align": {
-          "beforeColon": false,
-          "afterColon": true,
-          "on": "colon"
+      "key-spacing": [
+        "error",
+        {
+          "multiLine": {
+            "mode": "minimum",
+            "beforeColon": false,
+            "afterColon": true
+          },
+          "align": {
+            "beforeColon": false,
+            "afterColon": true,
+            "on": "colon"
+          }
         }
-      }],
+      ],
       "no-negated-condition": "warn",
       "operator-linebreak": [
         "error",
