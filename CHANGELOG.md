@@ -1,6 +1,15 @@
 # Change Log
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/AndreasPizsa/my-xo/compare/v0.1.2...v0.2.0) (2020-03-06)
+
+
+### Features
+
+* remove postinstaller ([cab3060](https://github.com/AndreasPizsa/my-xo/commit/cab3060))
+
+
 
 <a name="0.1.3"></a>
 ## [0.1.3](https://github.com/AndreasPizsa/my-xo/compare/v0.1.2...v0.1.3) (2020-02-24)
@@ -9,6 +18,7 @@ All notable changes to this project will be documented in this file. See [standa
 ### Bug Fixes
 
 * remove postinstaller ([3969060](https://github.com/AndreasPizsa/my-xo/commit/3969060))
+
 
 
 
