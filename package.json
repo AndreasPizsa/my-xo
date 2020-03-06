@@ -4,9 +4,7 @@
   "main": "index.js",
   "scripts": {
     "release": "standard-version",
-    "test": "xo test/*.js",
-    "postinstall": "postinstaller",
-    "preuninstall": "postinstaller"
+    "test": "xo test/*.js"
   },
   "keywords": [
     "xo",
@@ -80,8 +78,7 @@
     "xo.space": true
   },
   "dependencies": {
-    "eslint-config-xo-space": "^0.20.0",
-    "postinstaller": "0.0.3"
+    "eslint-config-xo-space": "^0.20.0"
   },
   "standard-version": {
     "scripts": {
