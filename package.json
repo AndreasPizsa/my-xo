@@ -1,6 +1,6 @@
 {
   "name": "@andreaspizsa/eslint-config-xo",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "index.js",
   "scripts": {
     "release": "standard-version",
@@ -32,6 +32,7 @@
         2,
         "never"
       ],
+      "comma-dangle": "warn",
       "func-names": "off",
       "key-spacing": [
         "error",
@@ -58,7 +59,8 @@
             "x:": "ignore"
           }
         }
-      ]
+      ],
+      "padding-line-between-statements": "warn"
     }
   },
   "commitlint": {

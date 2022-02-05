@@ -1,6 +1,14 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [0.2.1](https://github.com/AndreasPizsa/my-xo/compare/v0.1.3...v0.2.1) (2022-02-05)
+
+
+### Features
+
+* remove postinstaller ([9f58ecb](https://github.com/AndreasPizsa/my-xo/commit/9f58ecbe7311a9937ed7efcda47fac333d19e7a6))
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/AndreasPizsa/my-xo/compare/v0.1.2...v0.2.0) (2020-03-06)
 
